@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* centra horizontal */
+    align-items: center;
+    /* centra vertical */
+    height: 100vh;
+    /* altura total de la pantalla */
+    background: rgb(255, 255, 255);
+    /* opcional, para que combine */
+}
