@@ -10,7 +10,7 @@ body {
 
     height: 100dvh;
     /* clave para móvil */
-    background: black;
+    background: white;
 
     touch-action: none;
 }
