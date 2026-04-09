@@ -4,9 +4,13 @@ body {
     justify-content: center;
     /* centra horizontal */
     align-items: center;
+    overflow: hidden;
+    /* quita el scroll */
     /* centra vertical */
-    height: 100vh;
+    height: 100%;
     /* altura total de la pantalla */
     background: rgb(255, 255, 255);
     /* opcional, para que combine */
+    touch-action: none;
+    /*evita gestos (scroll, zoom) */
 }
