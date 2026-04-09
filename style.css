@@ -1,25 +1,18 @@
 html,
 body {
     margin: 0;
-    /* quita márgenes por defecto */
     padding: 0;
-    /* quita márgenes y relleno por defecto */
     overflow: hidden;
-    /* quita el scroll */
+
     display: flex;
-    /* usa flexbox para centrar el contenido */
     justify-content: center;
-    /* centra horizontal */
     align-items: center;
-    /* centra vertical */
-    overflow: hidden;
-    /* quita el scroll */
+
     height: 100dvh;
-    /* altura de la ventana gráfica */
-    background: rgb(255, 255, 255);
-    /* opcional, para que combine */
+    /* clave para móvil */
+    background: black;
+
     touch-action: none;
-    /* evita el zoom en dispositivos táctiles */
 }
 
 canvas {
