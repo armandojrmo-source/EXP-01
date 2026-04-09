@@ -1,14 +1,20 @@
 body {
     margin: 0;
+    /* quita márgenes por defecto */
+    padding: 0;
+    /* quita márgenes y relleno por defecto */
+    overflow: hidden;
+    /* quita el scroll */
     display: flex;
+    /* usa flexbox para centrar el contenido */
     justify-content: center;
     /* centra horizontal */
     align-items: center;
+    /* centra vertical */
     overflow: hidden;
     /* quita el scroll */
-    /* centra vertical */
-    height: 100%;
-    /* altura total de la pantalla */
+    height: 100dvh;
+    /* altura de la ventana gráfica */
     background: rgb(255, 255, 255);
     /* opcional, para que combine */
     touch-action: none;
