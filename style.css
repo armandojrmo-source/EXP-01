@@ -18,5 +18,9 @@ body {
     background: rgb(255, 255, 255);
     /* opcional, para que combine */
     touch-action: none;
-    /*evita gestos (scroll, zoom) */
+    /* evita el zoom en dispositivos táctiles */
+}
+
+canvas {
+    display: block;
 }
